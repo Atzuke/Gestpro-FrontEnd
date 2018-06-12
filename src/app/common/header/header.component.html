@@ -1,42 +1,17 @@
-<header class="b-header">
+<nav style="background-color: #1a1918" class="site-header sticky-top py-1">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+       stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" 
+       y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" 
+       x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+    </a>
+    <a style="color: #abb2b9" class="py-2 d-none d-md-inline-block" href="#">Tour </a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
 
-  <!--[if lt IE 7]>
-  <p class="browsehappy">Nos está visitando con un <strong>navegador antiguo</strong>. Para disfrutar este
-    sitio que hemos preparado para ti, por favor descarga un navegador más nuevo y mejor <a
-      href="http://browsehappy.com/">aquí</a>, gracias.</p>
-  <![endif]-->
+    <button type="button" [routerLink]="['/userComponent']" routerLinkActive="router-link-active"  class="btn btn-primary">Inicio</button>
+    <button type="button" class="btn btn-success">Sing up</button>
 
-  <nav class="navbar navbar-default webtraining-nav" role="navigation">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div id="logo" class="logo">
-              <a class="b-navbar-brand">
-                <i class="fa fa-area-chart" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="nav navbar-nav pull-right">
-              <li class="leaf">
-                <a
-                  title="Cursos">Proyectos</a>
-              </li>
-              <li class="leaf">
-                <a
-                  title="Iniciar sesión">Issues</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
+  </div>
+</nav>
