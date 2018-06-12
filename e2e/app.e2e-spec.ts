@@ -1,10 +1,10 @@
-import { GestproFrontEndPage } from './app.po';
+import { AngularProjectManagerPage } from './app.po';
 
-describe('gestpro-front-end App', function() {
-  let page: GestproFrontEndPage;
+describe('angular-project-manager App', function() {
+  let page: AngularProjectManagerPage;
 
   beforeEach(() => {
-    page = new GestproFrontEndPage();
+    page = new AngularProjectManagerPage();
   });
 
   it('should display message saying app works', () => {

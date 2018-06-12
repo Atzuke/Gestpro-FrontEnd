@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class GestproFrontEndPage {
+export class AngularProjectManagerPage {
   navigateTo() {
     return browser.get('/');
   }
